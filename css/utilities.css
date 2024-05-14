@@ -1,0 +1,68 @@
+/* CONTAINER */
+.container {
+  max-width: var(--max-width);
+  width: 90%;
+  margin: auto;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-link {
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  padding-top: 0.8rem;
+  font-weight: bold;
+}
+/* CARDS */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.1875rem 0.4375rem 0 rgba(0, 0, 0, 0.13),
+    0 0.0625rem 0.125rem 0 rgba(0, 0, 0, 0.11);
+  min-height: 45rem;
+}
+
+.card .card-content {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.card .card-content h3 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 1.2;
+}
+
+.card .card-content p {
+  margin: 1rem 0;
+  font-weight: 400;
+}
+
+.card .card-content .btn-container {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card .card-content .btn-container a {
+  align-self: flex-end;
+}
